@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+
+
+}
+body {
+    margin: 0px;
+}
+.main {
+    background-image: url('Hero bg.png');
+    background-size: cover;
+    color: white;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu a {
+    padding: 15px 35px;
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    background-color: none;
+    border: 1px solid #222222;
+    border-radius: 25px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 10px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    color: white;
+    border-color: white;
+}
+
+
+.btn-primary {
+    background-color: #9224D6;
+    border-color: #9224D6;
+}
+
+.twobtn {
+    padding: 30px 0px;
+}
+.main-content {
+
+    min-height: 500px;
+    padding: 70px 0;
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+
+}
+.subcontent1 {
+    flex: 1;
+}
+.subcontent2 {
+    flex: 1;
+    text-align: end;
+}
+.img1 {
+    width: 90%;
+}
+h1 {
+    font-size: 65px;
+    line-height: 70px;
+    padding: 20px 0px;
+
+}
+p {
+    font-size: 17px;
+}
+.social {
+    padding-top: 30px;
+}
+.socialbar img {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
