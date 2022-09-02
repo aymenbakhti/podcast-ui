@@ -104,3 +104,38 @@ p {
     max-width: 1300px;
     margin: auto;
 }
+.blog {
+    padding-block: 80px;
+}
+.pseudonav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+.cardcover {
+    width: 100%;
+}
+.cardfoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.cardfoot p {
+    padding-left: 10px;
+}
+.fill {
+    flex: 1;
+}
+.card p {
+    padding-block: 20px;
+}
+.card h3 {
+    font-size: 25px;
+}
