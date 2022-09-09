@@ -10,7 +10,7 @@ body {
     margin: 0px;
 }
 .main {
-    background-image: url('Hero bg.png');
+    background: linear-gradient(to right, #3352aa, #2a0057, #4a0078);
     background-size: cover;
     color: white;
 }
