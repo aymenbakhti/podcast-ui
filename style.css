@@ -104,6 +104,9 @@ p {
     max-width: 1300px;
     margin: auto;
 }
+
+/********************************************/
+
 .blog {
     padding-block: 80px;
 }
@@ -138,4 +141,111 @@ p {
 }
 .card h3 {
     font-size: 25px;
+}
+
+/********************************************/
+
+.host {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    margin: auto;
+    padding-block:100px;
+
+
+}
+.host div {
+    flex: 1;
+}
+.btn-secondry {
+    color: black;
+    border-color: black;
+    align-items: flex-start;
+}
+.meet-host {
+    padding-top: 40px;
+}
+.host h2 {
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+.host p {
+    padding-block: 20px;
+    color: #4e4e4e;
+}
+/********************************************/
+.topics {
+    max-width: 1300px;
+    margin: auto;
+}
+
+/********************************************/
+
+
+
+
+/********************************************/
+
+.footer {
+    max-width: 1300px;
+    margin: auto;
+    padding-block: 40px;
+    min-height: 300px;
+    font-size: small;
+
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.abt {
+    padding-right: 90px;
+}
+.abt p {
+    color: #4e4e4e;
+}
+.vmenu {
+    margin-inline: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    color: black;
+    font-weight: bold;
+
+}
+.vmenu a {
+    color: #4e4e4e;
+    padding-block: 10px;
+    text-decoration: none;
+} 
+.adress { 
+    color: #4e4e4e;
+    padding-block: 4px;
+}
+.socialfooter {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    padding-block: 20px;
+
+}
+.socialfooter a {
+    text-decoration: none;
+    color: black;
+}
+.socialfooter p {
+    font-weight: 900;
+}
+.tcpp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 40px;
+}
+.tcpp p {
+    color: #4e4e4e;
 }
